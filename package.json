@@ -1,11 +1,11 @@
 {
   "name": "gulp-cloudfront-invalidate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "description": "A gulp plugin that allows you to invalidate paths in AWS cloudfront",
-  "homepage": "https://github.com/pksunkara/gulp-cloudfront-invalidate",
+  "homepage": "https://github.com/confyio/gulp-cloudfront-invalidate",
   "main": "index.js",
-  "repository": "pksunkara/gulp-cloudfront-invalidate",
+  "repository": "confyio/gulp-cloudfront-invalidate",
   "keywords": [
     "gulp",
     "cloudfront",
@@ -19,12 +19,12 @@
     "through2": "2.0.x"
   },
   "bugs": {
-    "url": "https://github.com/pksunkara/gulp-cloudfront-invalidate/issues"
+    "url": "https://github.com/confyio/gulp-cloudfront-invalidate/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.githubusercontent.com/pksunkara/octonode/master/LICENSE"
+      "url": "https://raw.githubusercontent.com/confyio/octonode/master/LICENSE"
     }
   ]
 }
