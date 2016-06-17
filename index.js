@@ -14,8 +14,7 @@ module.exports = function (options) {
   });
 
   var complain = function (err, msg, callback) {
-    throw new util.PluginError('gulp-cloudfront-invalidate', msg + ': ' + err);
-    return callback(false);
+    return callback(new util.PluginError('gulp-cloudfront-invalidate', msg + ': ' + err));
   };
 
   var check = function (id, callback) {
