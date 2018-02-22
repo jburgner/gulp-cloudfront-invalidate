@@ -1,4 +1,5 @@
-var util = require('gulp-util')
+var log = require('fancy-log')
+  , PluginError = require('plugin-error')
   , through = require('through2')
   , aws = require('aws-sdk');
 
@@ -21,7 +22,7 @@ module.exports = function (options) {
   }
 
   var complain = function (err, msg, callback) {
-    return callback(new util.PluginError('gulp-cloudfront-invalidate', msg + ': ' + err));
+    return callback(new PluginError('gulp-cloudfront-invalidate', msg + ': ' + err));
   };
 
   var check = function (id, callback) {
@@ -54,7 +55,7 @@ module.exports = function (options) {
     }, function (err, res) {
       if (err) return complain(err, 'Could not invalidate cloudfront', callback);
 
-      util.log('Cloudfront invalidation created: ' + res.Invalidation.Id);
+      log('Cloudfront invalidation created: ' + res.Invalidation.Id);
 
       if (!options.wait) {
         return callback();
