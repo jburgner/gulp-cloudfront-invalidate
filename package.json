@@ -14,7 +14,7 @@
     "invalidation"
   ],
   "dependencies": {
-    "aws-sdk": "2.1.x",
+    "aws-sdk": "2.814.x",
     "fancy-log": "1.3.x",
     "plugin-error": "1.0.x",
     "through2": "2.0.x"
