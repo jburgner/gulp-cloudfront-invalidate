@@ -31,7 +31,7 @@ gulp.task('invalidate', function () {
 If you like this project, please watch this and follow me.
 
 ## Contributors
-Here is a list of [Contributors](http://github.com/confyio/gulp-cloudfront-invalidate/contributors)
+Here is a list of [Contributors](http://github.com/jburgner/gulp-cloudfront-invalidate/contributors)
 
 __I accept pull requests and guarantee a reply back within a day__
 
@@ -39,9 +39,9 @@ __I accept pull requests and guarantee a reply back within a day__
 MIT/X11
 
 ## Bug Reports
-Report [here](http://github.com/confyio/gulp-cloudfront-invalidate/issues). __Guaranteed reply within a day__.
+Report [here](http://github.com/jburgner/gulp-cloudfront-invalidate/issues). __Guaranteed reply within a day__.
 
 ## Contact
-Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
+Josh Burgner (jburgner@gmail.com)
 
-Follow me on [github](https://github.com/users/follow?target=pksunkara), [twitter](http://twitter.com/pksunkara)
+Follow me on [github](https://github.com/users/follow?target=jburgner)
